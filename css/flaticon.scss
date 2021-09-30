@@ -1,0 +1,101 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?58fdf1995a10e6c502fec12dbce32103") format("truetype"),
+url("./flaticon.woff?58fdf1995a10e6c502fec12dbce32103") format("woff"),
+url("./flaticon.woff2?58fdf1995a10e6c502fec12dbce32103") format("woff2"),
+url("./flaticon.eot?58fdf1995a10e6c502fec12dbce32103#iefix") format("embedded-opentype"),
+url("./flaticon.svg?58fdf1995a10e6c502fec12dbce32103#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "down-chevron": "\f101",
+    "facebook": "\f102",
+    "twitter": "\f103",
+    "pinterest": "\f104",
+    "linkedin": "\f105",
+    "shopping-cart": "\f106",
+    "search-interface-symbol": "\f107",
+    "envelope": "\f108",
+    "pin": "\f109",
+    "heart": "\f10a",
+    "star": "\f10b",
+    "star-1": "\f10c",
+    "leaf": "\f10d",
+    "plant": "\f10e",
+    "right-quotes-symbol": "\f10f",
+    "plus": "\f110",
+    "phone-call": "\f111",
+    "placeholder": "\f112",
+    "arrows": "\f113",
+);
+
+.flaticon-down-chevron:before {
+    content: map-get($flaticon-map, "down-chevron");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-pinterest:before {
+    content: map-get($flaticon-map, "pinterest");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon-map, "linkedin");
+}
+.flaticon-shopping-cart:before {
+    content: map-get($flaticon-map, "shopping-cart");
+}
+.flaticon-search-interface-symbol:before {
+    content: map-get($flaticon-map, "search-interface-symbol");
+}
+.flaticon-envelope:before {
+    content: map-get($flaticon-map, "envelope");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon-map, "pin");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-star-1:before {
+    content: map-get($flaticon-map, "star-1");
+}
+.flaticon-leaf:before {
+    content: map-get($flaticon-map, "leaf");
+}
+.flaticon-plant:before {
+    content: map-get($flaticon-map, "plant");
+}
+.flaticon-right-quotes-symbol:before {
+    content: map-get($flaticon-map, "right-quotes-symbol");
+}
+.flaticon-plus:before {
+    content: map-get($flaticon-map, "plus");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-arrows:before {
+    content: map-get($flaticon-map, "arrows");
+}

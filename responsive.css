@@ -1,0 +1,299 @@
+
+
+@media  (max-width: 991px) {
+  .tranding-content h2 {
+    font-size: 19px;
+    margin: 16px 0px;
+}
+
+.tranding-content span {
+  font-size: 15px;
+}
+
+.tranding-icon2 a {
+  color: #f35320;
+  font-size: 12px;
+  margin-left: 2px;
+}
+
+.tranding-icon2 {
+  margin-top: 7px;
+}
+
+.tranding-sale span {
+  width: 60px;
+  height: 38px;
+  line-height: 38px;
+}
+
+.tranding-icon ul {
+  margin-right: 7px;
+}
+
+.tranding-icon ul li a {
+  width: 35px;
+  height: 35px;
+  line-height: 39px;
+  font-size: 17px;
+}
+
+.tranding-icon ul li {
+  margin-left: 7px;
+}
+
+.organic-image img {
+  max-width: 100%;
+}
+
+.sub-blog-content h5 {
+  font-size: 19px;
+}
+
+.sub-blog-content a {
+  font-size: 16px;
+}
+
+.subscribe-btn button {
+  font-size: 13px;
+  padding: 17px 22px;
+}
+
+}
+
+@media (max-width: 767px){
+
+  .bannar-area {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://i.postimg.cc/Z5Kh7wHW/main-banner-bg-1.jpg);
+
+}
+
+  .sub-top-area {
+    display: inherit;
+}
+
+.sub-top-area-left {
+  width: 100%;
+  justify-content: center;
+}
+
+.sub-top-area-right {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.sub-top-icon-right ul {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.bannar-area {
+  padding: 117px 0px;
+}
+
+.bannar-content h1 {
+  font-size: 63px;
+}
+
+.week-play-button {
+  position: relative;
+  bottom: 58px;
+  left: 104px;
+}
+
+.subscribe-btn button {
+  font-size: 16px;
+  padding: 14px 30px;
+}
+
+.sub-footer-content {
+  margin-bottom: 40px;
+}
+
+.copyright-content1 p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.copyright-content1 {
+  text-align: center;
+}
+
+.copyright-content2 ul {
+  justify-content: center !important;
+}
+
+.copyright-content2 ul li a {
+  font-size: 14px;
+}
+
+
+}
+
+
+@media (max-width: 575px){
+
+  .nav-logo {
+    font-size: 25px;
+  }
+
+  .bannar-content {
+    text-align: center;
+}
+
+  .bannar-btn {
+    justify-content: center;
+}
+
+.bannar-content h1 {
+  font-size: 53px;
+}
+
+.sub-tranding-product {
+  width: 72%;
+  margin:0px auto 30px;
+}
+
+.sub-depertment {
+  width: 72%;
+  margin: 0px auto 30px;
+}
+
+.choose-content {
+  margin-bottom: 30px;
+  text-align: start !important;
+}
+.sub-choose {
+  max-width: 490px;
+  margin:60px auto 0px;
+}
+
+.choose-mini-content p {
+  font-size: 15px;
+}
+
+.defult-content p {
+  font-size: 15px;
+}
+
+.sub-blog {
+  width: 72%;
+  margin:0px auto 30px;
+}
+
+.mini-footer-img {
+  width: 20%;
+  margin: auto;
+}
+.footer-area {
+  text-align: center;
+}
+
+.footer-icon ul {
+  justify-content: center;
+}
+
+.mini-footer-content2 {
+  display: inherit !important;
+}
+
+.sub-footer-content h2::after {
+  left: 45%;
+}
+
+.footer-icon {
+  margin-top: 21px;
+  margin-bottom: 25px;
+}
+
+.defult-content {
+  text-align: center;
+}
+
+.week-play-button {
+  bottom: 0;
+  left: 0;
+}
+
+.week-play-button i {
+  font-size: 29px;
+  position: relative;
+  top: -4px;
+}
+
+.week-play-button {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+}
+
+}
+
+@media (max-width: 483px){
+  .sub-top-content1 p {
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.sub-top-area-left {
+ display: inherit;
+}
+
+.sub-top-content1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.sub-top-content2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+}
+
+@media (max-width: 400px){
+  .bannar-content h1 {
+    font-size: 41px;
+}
+
+.bannar-area {
+  padding: 66px 0px;
+}
+
+.bannar-content p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 28px;
+  padding: 0px 49px;
+}
+
+.defult-btn {
+  font-size: 14px;
+}
+
+.bannar-btn2 {
+  font-size: 14px;
+}
+
+.subscribe-btn button {
+  padding: 14px 11px;
+  font-size: 13px;
+}
+
+.subscribe-email input {
+  padding: 17px 0px 14px 16px;
+}
+
+
+}
+
+@media (max-width: 301px){
+  .bannar-btn2, .defult-btn{
+    padding: 12px 17px;
+    margin-left: 7px;
+    font-size: 11px;
+    line-height: 21px;
+  }
+
+}
